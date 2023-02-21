@@ -41,8 +41,29 @@ export default function Welcome() {
                     <span className="ml-3 my-4">help ?</span>
                </div>
             </div>
-            <div className="content bg-indigo-500 w-[680px] ">r
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias odio sit consequatur omnis dolorum minus, vel deserunt sed quo laborum numquam porro explicabo mollitia suscipit.</p>
+
+
+            <div className="content w-[680px] ">
+                <div className=" py-5 shadow-lg overflow-hidden shadow-[#CFCFCF] rounded-lg">
+                    <div className="head flex flex-row mb-3 gap-5">
+                        <span className='ml-3 border-[#90A877] border-b-2'>Posts</span>
+                        <span className='text-gray-400 cursor-pointer'>Photos</span>
+                        <span className='text-gray-400 cursor-pointer'>Video</span>
+                        <span className='text-gray-400 cursor-pointer'>Communities</span>
+                        <span className='text-gray-400 cursor-pointer'>Recommendations</span>
+                    </div>
+                    <div className="post-input p-3">
+                        <input type="text" placeholder='Write a post' className='w-full border-transparent bg-gray-100 focus:outline-none focus:border-none rounded-md' />
+                    </div>
+                </div>
+
+                <div className="post_container my-5 shadow-lg overflow-hidden shadow-[#CFCFCF] rounded-lg">
+                    <div className="container p-3">
+                        <header className="user-head">
+                            e
+                        </header>
+                    </div>
+                </div>     
             </div>
 
 
@@ -118,7 +139,6 @@ export default function Welcome() {
                 </div>
                 
             </div>
-
 
            </main>
         </>
